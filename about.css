@@ -1,0 +1,52 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    width: 100%;
+    height: 100vh;
+    background-color: #E9E8E6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+} 
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#button-back{
+    text-decoration: none;
+    color: #444444;
+}
+
+.footer-class{
+    width: 100%;
+}
+
+/* Footer-Div */
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ---------------------------- */
+/* Footer Design End */
+
+/* Span color design for Highlighted text */
+span{
+    color: #34B7A7;
+}

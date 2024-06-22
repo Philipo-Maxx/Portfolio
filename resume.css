@@ -1,0 +1,111 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+    background-color: #E9E8E6;
+} 
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-div{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.container{
+display: grid;
+width: 100%;
+grid-template-columns: repeat(2,50%);
+grid-template-rows:repeat(2,50%) ;
+column-gap: 10px;
+margin-top: 30px;
+}
+
+.box1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 20px;
+    background-color: rgb(245, 209, 209);
+}
+
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    padding: 10px;
+    background-color: rgb(245, 229, 199);
+}
+
+.box3{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    padding: 10px;
+    background-color: rgb(188, 188, 252);
+    /* display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;  */
+}
+
+.box1 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.box2 > div{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+
+
+#education{
+    width: 100%;
+    align-items: start;
+}
+
+#button-back{
+    text-decoration: none;
+    color: #444444;
+}
+.footer-class{
+    width: 100%;
+}
+
+/* Footer-Div */
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ---------------------------- */
+/* Footer Design End */
+
+/* Span color design for Highlighted text */
+span{
+    color: #34B7A7;
+}

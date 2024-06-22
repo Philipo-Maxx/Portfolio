@@ -1,0 +1,159 @@
+
+
+
+.main-container{
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color:#E9E8E6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h1{
+    color: #444444;
+}
+h3{
+    font-weight: lighter;
+}
+
+#Contact-text{
+    align-self: center;
+    color: #444444;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.bottom-div{
+    /* background-color: blue; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+.bottom-1{
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.bottom-subdiv-1,.bottom-subdiv-2, .bottom-subdiv-3{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.image-icon{
+    width: 10%;
+    background-color:#EFFBF9;
+    color:#6AB7AF;
+    align-items: center;
+    border-radius: 50%;
+}
+.image{
+    align-self: center;
+    color: green;
+}
+.image-description{
+    padding: 20px;
+    width: 80%;
+    display: block;
+    margin-left: 10px;
+    align-items: start;
+    /* background-color: yellow; */
+    color: #444444;
+}
+.image-icon:hover{
+    background-color: #34B7A7;
+    color: white;
+}
+
+.bottom-2{
+    width: 70%;
+    padding: 20px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-2,.info-3{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    padding: 10px;
+    margin-right: 5px;
+    resize: none;
+}
+.email{
+    padding: 10px; 
+    margin-left: 5px;
+    resize: none;
+}
+
+.message, .subject{
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
+
+.sub-info-1,.sub-info-2{
+    width: 50%;
+}
+
+.info-4{
+    align-self: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+Button{
+    background-color: #34B7A7;
+    padding: 10px 22px;
+    border: none;
+    text-align: center;
+    border-radius: 50px;
+}
+
+Button:hover{
+    background-color:#89d2ca; ;
+}
+
+/* footer section Design Start*/
+/* ---------------------------- */
+
+.footer-class{
+    width: 100%;
+}
+
+/* Footer-Div */
+.footer-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* ---------------------------- */
+/* Footer Design End */
+
+/* Span color design for Highlighted text */
+span{
+    color: #34B7A7;
+}
