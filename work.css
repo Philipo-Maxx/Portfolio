@@ -1,17 +1,25 @@
+
+/* Body styling */
 body{
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     color: #444444;
-    justify-content: space-around;
+    justify-content: space-evenly; */
     background-color: #E9E8E6;
 }
+
+/* H1 headers styling */
 h1{
     margin-bottom: 100px;
 }
 
+
+/* Container styling */
 .container{
     max-width: 1300px;
 }
+
+/* Main Container styling */
 .main-container{
     width: 100%;
     background-color: white;
@@ -19,7 +27,7 @@ h1{
     padding-right: 100px;
 }
 
-
+/* Main Section Div */
 .main-div-section{
     width: 100%;
     display: flex;
@@ -27,7 +35,7 @@ h1{
     align-items: center;
 }
 
-
+/* Grid Styling Div, Using grid column and row */
 .grid-container{
     display: grid;
     width: 100%;
@@ -35,6 +43,8 @@ h1{
     grid-template-columns: repeat(3,350px);
     grid-template-rows: repeat(1,350px);
 }
+
+/* Box1 Styling */
 .box1{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -45,16 +55,19 @@ h1{
     grid-row-end: 2;
 }
 
+/* Generic Image Styling */
 .image{
     width: 100%;
     height: 100%;
 }
 
+/* Generic Image description styling */
 .text_desc{
     align-self: center;
 }
 
 
+/* Box2 Styling */
 .box2{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -65,7 +78,7 @@ h1{
     align-items: center;
 }
 
-
+/* Box3 Styling */
 .box3{
     grid-column-start: 3;
     grid-column-end: 4;
@@ -76,6 +89,7 @@ h1{
     align-items: center;
 }
 
+/* Anchor text syyling */
 a{
     text-decoration: none;
     color:#34B7A7;

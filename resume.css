@@ -1,9 +1,12 @@
+
+/* Body Styling */
 body{
     font-family: "Open Sans", sans-serif;
     color: #444444;
     background-color: #E9E8E6;
 } 
 
+/* Generic Div Styling using a Flex Display */
 div{
     display: flex;
     flex-direction: column;
@@ -11,6 +14,7 @@ div{
     align-items: center;
 }
 
+/* Main Div Styling */
 .main-container{
     display: flex;
     flex-direction: column;
@@ -18,12 +22,15 @@ div{
     justify-content: center;
 }
 
+/* Resume h1 text Styling */
 .resume-div{
     width: 100%;
     height: 50px;
     margin-bottom: 50px;
 }
 
+
+/* Main Container div styling using a Grid Display */
 .container{
 display: grid;
 width: 100%;
@@ -33,6 +40,7 @@ column-gap: 10px;
 margin-top: 30px;
 }
 
+/* Box Styling for each individual entry */
 .box1{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -42,6 +50,7 @@ margin-top: 30px;
     background-color: rgb(245, 209, 209);
 }
 
+/* Box Styling for each individual entry */
 .box2{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -51,6 +60,7 @@ margin-top: 30px;
     background-color: rgb(245, 229, 199);
 }
 
+/* Box Styling for each individual entry */
 .box3{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -64,6 +74,7 @@ margin-top: 30px;
     justify-content: space-between;  */
 }
 
+/* Div inside a grid box display styling */
 .box1 > div{
     display: flex;
     flex-direction: column;
@@ -71,6 +82,7 @@ margin-top: 30px;
     justify-content: space-between;
 }
 
+/* Div inside a grid box display styling */
 .box2 > div{
     display: flex;
     flex-direction: column;
@@ -79,16 +91,19 @@ margin-top: 30px;
 }
 
 
-
+/* Education id styling of div */
 #education{
     width: 100%;
     align-items: start;
 }
 
+/* Back text styling of anchor element */
 #button-back{
     text-decoration: none;
     color: #444444;
 }
+
+/* Footer Class Styling */
 .footer-class{
     width: 100%;
 }

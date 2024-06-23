@@ -1,3 +1,5 @@
+/* Generic headers styling */
+
 h1,
 h2,
 h3,
@@ -7,11 +9,11 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+/* Body styling */
 body{
     font-family: "Open Sans", sans-serif;
     color: #444444;
     width: 100%;
-    height: 100vh;
     background-color: #E9E8E6;
     display: flex;
     flex-direction: column;
@@ -19,17 +21,33 @@ body{
 
 } 
 
+
+/* Main Div Styling */
 div{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+/* Image styling */
+.main-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    color: #3A3A3A;
+    border: 5px solid color-mix(in srgb, #272829 , transparent 85%);
+    background-color: #f3e7e7b4;
+}
+
+/* Button back styling */
 #button-back{
     text-decoration: none;
     color: #444444;
 }
 
+
+/* Footer class styling */
 .footer-class{
     width: 100%;
 }

@@ -1,7 +1,7 @@
 /* Main Body Styling */
 body{
     font-family: "Open Sans", sans-serif;
-    color: #444444;
+    color: #34B7A7;
     background-color:#E9E8E6 ;
 } 
 
@@ -27,6 +27,9 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+  color: #34B7A7;
+  background-color: #d4dddc;
+  border-radius: 5px;
 }
 
 
@@ -43,6 +46,7 @@ h6 {
     padding-left: 10px;
     padding-right: 10px;
     position: sticky;
+    color: #34B7A7;
     box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
     /* box shadow was copied */
 }
@@ -115,7 +119,7 @@ h6 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(assets/img/hero-bg.jpg) top right;
+    background: url(assets/img/testimonials-bg.jpg) top right;
     background-size: cover;
 }
 
