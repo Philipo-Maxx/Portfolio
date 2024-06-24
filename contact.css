@@ -1,7 +1,13 @@
+/* Roboto Fonts included */
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+  }
 
 
 /* Main Container Div styling */
 .main-container{
+    font-family: myFirstFont;
     padding-left: 500px;
     padding-right: 500px;
     background-color:#E9E8E6;

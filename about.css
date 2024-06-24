@@ -1,3 +1,10 @@
+/* Roboto Fonts included */
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+  }
+
+
 /* Generic headers styling */
 
 h1,
@@ -6,12 +13,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: myFirstFont;
 }
 
 /* Body styling */
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: myFirstFont;
     color: #444444;
     width: 100%;
     background-color: #E9E8E6;

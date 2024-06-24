@@ -1,6 +1,13 @@
 
+/* Roboto Fonts included */
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+  }
+
 /* Body styling */
 body{
+    font-family: myFirstFont;
     /* display: flex;
     flex-direction: row;
     color: #444444;

@@ -1,7 +1,13 @@
 
+/* Roboto Fonts included */
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+  }
+
 /* Body Styling */
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: myFirstFont;
     color: #444444;
     background-color: #E9E8E6;
 } 

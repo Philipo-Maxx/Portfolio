@@ -1,6 +1,11 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Roboto/Roboto-Regular.ttf);
+  }
+
 /* Main Body Styling */
 body{
-    font-family: "Open Sans", sans-serif;
+    font-family: myFirstFont;
     color: #34B7A7;
     background-color:#E9E8E6 ;
 } 
@@ -26,7 +31,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: myFirstFont;
   color: #34B7A7;
   background-color: #d4dddc;
   border-radius: 5px;
@@ -144,7 +149,7 @@ h6 {
 .sub-heading-text{
     margin-bottom: 20px;
     color: #767676;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family: myFirstFont;
 }
 
 
